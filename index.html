@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>practice page :)</title>
+<link rel="icon" type="image/x-icon" href="images/cinacup.webp">
+<style>
+/* headings style */
+h1,h2,h3{
+  font-family:verdana;
+}
+h1,h2,h3,p{
+  padding:10px;
+  margin:20px;
+}
+/* form style */
+form{
+  padding:20px;
+}
+/* link style */
+a{
+  color:powderblue;
+  text-decoration:none;
+}
+/* table style */
+th,td{
+  padding:10px;
+}
+table,th,td{
+  border: 1px solid powderblue;
+  border-collapse: collapse;
+}
+tr:nth-child(even) {
+  background-color:yellow;
+}
+/* navigation style */
+.nav {
+  background-color:yellow;
+}
+.fullwidth {
+  width: 100%;
+}
+/* sidebar style */
+.sidebar{
+  float: left;
+  width: 20%;
+}
+/* main style */
+.main{
+  float:left;
+  width: 80%;
+}
+@media screen and (max-width: 800px) {
+  .sidebar, .main {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="margin:40px">
+
+<!-- header -->
+<header>
+<h1 style="font-size:60px;color:powderblue;text-align:center;background-image: url('images/cloudbg.webp');">my HTML practice site</h1>
+</header>
+
+<!-- navigation -->
+<nav class="fullwidth nav">
+<ul>
+  <li>here</li>
+  <li>there</li>
+  <li>everywhere</li>
+  <li><a href="formpage.html">form</a></li>
+</ul>
+<form>
+  <label for="search">search:</label>
+  <input type="search" id="search" name="search">
+</form>
+</nav>
+
+<!-- introduction -->
+
+<section>
+<h2 id="intro">fascinating information about me</h2>
+
+<p>here follows some juicy little tidbits about an absolutely extraordinary person</p>
+</section>
+
+<!-- table of contents -->
+<aside class="sidebar">
+<img src="images/cinastack.webp" alt="none" style="float:left;width:42px;height:42px;padding:50px;">
+<ol type="i" style="padding:10px;">
+  <li><a href="#intro">Intro</a></li>
+  <li><a href="#anime">Favorite Anime</a></li>
+  <li><a href="#quotes">Quotations</a></li>
+  <li><a href="#misc">Miscellaneous Info</a></li>
+  <ol>
+    <li><a href="#genshin">Genshin Mains</a></li>
+  </ol>
+</ol>
+</aside>
+
+<div class="main">
+<!-- task list -->
+<section>
+<div style="border:2px solid yellow;">
+<h3 id="tasks">a task list</h3>
+<form>
+  <input type="checkbox" id="task1" name="task1" value="made">
+  <label for="task1">make this site</label><br>
+  <input type="checkbox" id="task2" name="task2" value="fixed">
+  <label for="task2">fix this site</label><br>
+</form>
+</div>
+</section>
+
+<!-- favorite media -->
+<section>
+<h3 id="anime">favorite anime</h3>
+<ul>
+  <li><cite><abbr title="Neon Genesis Evangelion">NGE</abbr></cite></li>
+  <li><cite>cardcaptor sakura</cite></li>
+</ul>
+</section>
+
+<!-- quotations -->
+<section>
+<h3 id="quotes">a quote</h3>
+<blockquote cite="https://abbyk16.github.io">
+  I was raised as a feral child<br>
+  but I speak HTML fluently
+</blockquote>
+</section>
+
+<!-- miscellaneous info -->
+<section>
+<div style="background-color:yellow;">
+<h3 id="misc">more stuff</h3>
+
+<p>another paragraph. also here is a <a href="https://abbyk16.github.io" target="_blank">link</a> to my other website.</p>
+
+<p><em>additionally</em> here is an image of cinammoroll listening to music which i also like to do. <br> <img src="images/cinamusic.webp" alt="cinammoroll with headphones" width="25%" height="25%"></p>
+<p>here are some math formulas:
+
+<pre><b><i>
+  y = mx + b
+  y = x<sup>2</sup>
+</i></b></pre>
+</p>
+</div>
+</section>
+
+<section>
+<h3 id="genshin">&#128152; genshin mains &#128152;</h3>
+<table style="width:100%;font-family:verdana;">
+  <tr style="background-color:powderblue;">
+    <th>name</th>
+    <th>lvl</th>
+    <th>element</th>
+  </tr>
+  <tr>
+    <td>raiden</td>
+    <td>90</td>
+    <td>electro</td>
+  </tr>
+  <tr>
+    <td>ayaka</td>
+    <td>80</td>
+    <td>cryo</td>
+  </tr>
+  <tr>
+    <td>kokomi</td>
+    <td>80</td>
+    <td>hydro</td>
+  </tr>
+  <tr>
+    <td>shenhe</td>
+    <td>80</td>
+    <td>cryo</td>
+  </tr>
+</table>
+</section>
+
+<hr>
+
+<footer class="fullwidth">
+  its a footer
+</footer>
+</div>
+
+</body>
+</html>
