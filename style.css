@@ -1,3 +1,11 @@
+/*header style */
+h1{
+  font-size:60px;
+  color:powderblue;
+  text-align:center;
+  background-image: url('images/cloudbg.webp');
+}
+
 /* headings style */
 h1,h2,h3{
   font-family:verdana;
@@ -24,12 +32,29 @@ table,th,td{
   border-collapse: collapse;
 }
 tr:nth-child(even) {
-  background-color:yellow;
+  background-color:lemonchiffon;
 }
 /* navigation style */
 .nav {
-  background-color:yellow;
+  background-color:lemonchiffon;
+  list-style-type:none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
 }
+.nav li{
+  float:left
+}
+.nav li a{
+  display: block;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+.nav li a:hover{
+  background-color:powderblue;
+}
+
 .fullwidth {
   width: 100%;
 }
@@ -48,4 +73,9 @@ tr:nth-child(even) {
   .sidebar, .main {
     width: 100%;
   }
+}
+.yellow{
+  background-color: lemonchiffon;
+  border: 2px solid black;
+  border-radius: 20px;
 }

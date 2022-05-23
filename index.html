@@ -11,26 +11,25 @@
 
 <!-- header -->
 <header>
-<h1 style="font-size:60px;color:powderblue;text-align:center;background-image: url('images/cloudbg.webp');">my HTML practice site</h1>
+<h1>my HTML practice site</h1>
 </header>
 
 <!-- navigation -->
-<nav class="fullwidth nav">
-<ul>
-  <li>here</li>
-  <li>there</li>
-  <li>everywhere</li>
+<nav>
+<ul class="fullwidth nav">
+  <li><a href="index.html">here</a></li>
+  <li><a href="page2.html">there</a></li>
+  <li><a href="page3.html">everywhere</a></li>
   <li><a href="formpage.html">form</a></li>
-</ul>
-<form>
-  <label for="search">search:</label>
+  <li style="float:right;padding:20px;"><label for="search">search:</label>
   <input type="search" id="search" name="search">
-</form>
+</form></li>
+</ul>
 </nav>
 
 <!-- introduction -->
 
-<section>
+<section style="width:100%;display:block;">
 <h2 id="intro">fascinating information about me</h2>
 
 <p>here follows some juicy little tidbits about an absolutely extraordinary person</p>
@@ -53,7 +52,7 @@
 <div class="main">
 <!-- task list -->
 <section>
-<div style="border:2px solid yellow;">
+<div style="border:2px solid black;border-radius:20px;">
 <h3 id="tasks">a task list</h3>
 <form>
   <input type="checkbox" id="task1" name="task1" value="made">
@@ -84,7 +83,7 @@
 
 <!-- miscellaneous info -->
 <section>
-<div style="background-color:yellow;">
+<div class="yellow">
 <h3 id="misc">more stuff</h3>
 
 <p>another paragraph. also here is a <a href="https://abbyk16.github.io" target="_blank">link</a> to my other website.</p>
@@ -92,13 +91,15 @@
 <p><em>additionally</em> here is an image of cinammoroll listening to music which i also like to do. <br> <img src="images/cinamusic.webp" alt="cinammoroll with headphones" width="25%" height="25%"></p>
 <p>here are some math formulas:
 
+<div style="padding:20px;margin:20px;">
 <pre><b><i>
   y = mx + b
   y = x<sup>2</sup>
-</i></b></pre>
+</i></b></pre></div>
 </p>
 </div>
 </section>
+
 
 <section>
 <h3 id="genshin">&#128152; genshin mains &#128152;</h3>
