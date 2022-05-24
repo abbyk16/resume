@@ -37,6 +37,9 @@ tr:nth-child(even) {
 /* navigation style */
 .nav {
   background-color:lemonchiffon;
+  border-style:solid;
+  border-radius:15px;
+  border-color:lemonchiffon;
   list-style-type:none;
   overflow: hidden;
   padding: 0;
@@ -48,11 +51,15 @@ tr:nth-child(even) {
 .nav li a{
   display: block;
   text-align: center;
-  padding: 20px 20px;
+  padding: 22px 20px 20px;
   text-decoration: none;
 }
 .nav li a:hover{
-  background-color:powderblue;
+  border-style:solid;
+  border-width: 4px;
+  border-color:powderblue;
+  border-radius:15px;
+  padding: 18px 16px 16px;
 }
 
 .fullwidth {
@@ -78,4 +85,18 @@ tr:nth-child(even) {
   background-color: lemonchiffon;
   border: 2px solid black;
   border-radius: 20px;
+}
+/* input style */
+
+input{
+  padding:10px;
+  margin:20px;
+}
+input[type="checkbox"]{
+  padding:10px;
+  margin:5px;
+}
+/* fieldset style */
+fieldset{
+  background-color:ghostwhite;
 }
