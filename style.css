@@ -1,11 +1,11 @@
 /*header style */
 h1{
   font-size:60px;
-  color:powderblue;
+  color:white;
   text-align:center;
   background-image: url('images/cloudbg.webp');
+  text-shadow: -2px 0 powderblue, 0 2px powderblue, 2px 0 powderblue, 0 -2px powderblue;
 }
-
 /* headings style */
 h1,h2,h3{
   font-family:verdana;
@@ -126,9 +126,42 @@ input[type="checkbox"]{
   padding:10px;
   margin:5px;
 }
+.inputbutton{
+  background-color: white;
+  color: powderblue;
+  padding: 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: powderblue;
+  cursor: pointer;
+}
+.inputbutton:hover{
+  background-color:powderblue;
+  color:white;
+  transition:.2s;
+}
 /* fieldset style */
 fieldset{
-  background-color:ghostwhite;
+  border-color:lemonchiffon;
+  border-width: 5px;
+  border-style:solid;
+  border-radius:15px;
+  padding: 20px;
+}
+/*legend style*/
+legend{
+  font-family:verdana;
+  font-size:1em;
+  color:grey;
+}
+/* label style */
+label{
+  margin:20px;
+}
+textarea{
+  resize:none;
+  width:75%;
 }
 /*article style */
 article{
