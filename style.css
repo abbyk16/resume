@@ -3,7 +3,7 @@ h1{
   font-size:60px;
   color:powderblue;
   text-align:center;
-  background-image: url('images/cloudbg.webp');
+  background-image: url('images/cloudbg.webp'), ;
 }
 
 /* headings style */
@@ -97,6 +97,10 @@ tr:nth-child(even) {
 @media screen and (max-width: 800px) {
   .sidebar, .main {
     width: 100%;
+    height:auto;
+    margin-left:auto;
+    position:relative;
+    margin-bottom:20px;
   }
   .clearfix::after{
     clear:none;
