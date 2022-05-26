@@ -1,9 +1,10 @@
 /*header style */
 h1{
   font-size:60px;
-  color:powderblue;
+  color:white;
+  text-shadow: -2px 0 powderblue, 0 2px powderblue, 2px 0 powderblue, 0 -2px powderblue;
   text-align:center;
-  background-image: url('images/cloudbg.webp'), ;
+  background-image: url('images/cloudbg.webp');
 }
 
 /* headings style */
@@ -53,7 +54,6 @@ tr:nth-child(even) {
   text-align: center;
   padding: 22px 20px 20px;
   text-decoration: none;
-  margin:2px;
 }
 .nav li a:hover:not(.active){
   border-style:solid;
@@ -61,15 +61,16 @@ tr:nth-child(even) {
   border-color:powderblue;
   border-radius:15px;
   padding: 18px 16px 16px;
-  margin:2px;
+  /*box-shadow: 5px 5px 10px grey inset;*/
 }
 .active{
   background-color: powderblue;
   border-width:0px;
+  padding: 0px 0px 0px;
+  margin: 0px;
   border-style:solid;
   border-radius:15px;
   border-color:powderblue;
-
 }
 
 .fullwidth {
