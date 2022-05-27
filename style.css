@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 /*header style */
 h1{
   font-size:60px;
@@ -5,6 +8,12 @@ h1{
   text-align:center;
   background-image: url('images/cloudbg.webp');
   text-shadow: -2px 0 powderblue, 0 2px powderblue, 2px 0 powderblue, 0 -2px powderblue;
+}
+.flex-container{
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
 }
 /* headings style */
 h1,h2,h3{
