@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 /*header style */
 h1{
   font-size:60px;
@@ -5,6 +8,12 @@ h1{
   text-align:center;
   background-image: url('images/cloudbg.webp');
   text-shadow: -2px 0 powderblue, 0 2px powderblue, 2px 0 powderblue, 0 -2px powderblue;
+}
+.flex-container{
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
 }
 /* headings style */
 h1,h2,h3{
@@ -174,4 +183,45 @@ article{
   border-width:2px;
   border-radius:15px;
   margin-bottom:10px;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  width: 30%;
+  float: left;
+  margin: 10px;
+  text-align: center;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.card>img {
+  border-radius: 5px 5px 0 0;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width:100%;
+}
+.dropdown-content {
+  display: none;
+  width: 100%;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  padding:10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown:hover .dropdown-content {
+  display: block
 }
