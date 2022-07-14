@@ -29,7 +29,7 @@ form{
 }
 /* link style */
 a{
-  color:powderblue;
+  color:#DB6834;
   text-decoration:none;
 }
 /* table style */
@@ -37,18 +37,18 @@ th,td{
   padding:10px;
 }
 table,th,td{
-  border: 1px solid powderblue;
+  border: 1px solid #DB6834;
   border-collapse: collapse;
 }
 tr:nth-child(even) {
-  background-color:lemonchiffon;
+  background-color:#fac5ae;
 }
 /* navigation style */
 .nav {
-  background-color:lemonchiffon;
+  background-color:#fac5ae;
   border-style:solid;
   border-radius:15px;
-  border-color:lemonchiffon;
+  border-color:#fac5ae;
   list-style-type:none;
   overflow: hidden;
   padding: 0;
@@ -66,19 +66,19 @@ tr:nth-child(even) {
 .nav li a:hover:not(.active){
   border-style:solid;
   border-width: 4px;
-  border-color:powderblue;
+  border-color:#DB6834;
   border-radius:15px;
   padding: 18px 16px 16px;
   /*box-shadow: 5px 5px 10px grey inset;*/
 }
 .active{
-  background-color: powderblue;
+  background-color: #DB6834;
   border-width:0px;
   padding: 0px 0px 0px;
   margin: 0px;
   border-style:solid;
   border-radius:15px;
-  border-color:powderblue;
+  border-color:#DB6834;
 }
 
 .fullwidth {
@@ -91,7 +91,7 @@ tr:nth-child(even) {
   font-family:verdana;
   font-weight:bold;
   font-size:.8em;
-  background-color:lemonchiffon;
+  background-color:#fac5ae;
   height:100%;
   overflow:auto;
   position:absolute;
@@ -121,7 +121,7 @@ tr:nth-child(even) {
   display:table;
 }
 .yellow{
-  background-color: lemonchiffon;
+  background-color: #fac5ae;
   border: 2px solid black;
   border-radius: 20px;
 }
@@ -156,7 +156,7 @@ input[type="checkbox"]{
 }
 /* fieldset style */
 fieldset{
-  border-color:lemonchiffon;
+  border-color:#fac5ae;
   border-width: 5px;
   border-style:solid;
   border-radius:15px;
