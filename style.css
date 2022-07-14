@@ -60,8 +60,18 @@ tr:nth-child(even) {
 .nav li a{
   display: block;
   text-align: center;
-  padding: 22px 20px 20px;
+  /*padding: 22px 20px 20px;*/
   text-decoration: none;
+  border-style:solid;
+  border-width: 4px;
+  border-color:#fac5ae;
+  border-radius:15px;
+  padding: 18px 16px 16px;
+  transition:         0.1s ease-in;
+  -o-transition:      0.1s ease-in;
+  -ms-transition:     0.1s ease-in;
+  -moz-transition:    0.1s ease-in;
+  -webkit-transition: 0.1s ease-in;
 }
 .nav li a:hover:not(.active){
   border-style:solid;
