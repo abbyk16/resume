@@ -4,10 +4,10 @@
 /*header style */
 h1{
   font-size:60px;
-  color:white;
+  color:#fac5ae;
   text-align:center;
   background-image: url('images/cloudbg.webp');
-  text-shadow: -2px 0 powderblue, 0 2px powderblue, 2px 0 powderblue, 0 -2px powderblue;
+  text-shadow: -2px 0 #DB6834, 0 2px #DB6834, 2px 0 #DB6834, 0 -2px #DB6834;
 }
 .flex-container{
   display: flex;
@@ -22,10 +22,12 @@ h1,h2,h3{
 h1,h2,h3,p{
   padding:10px;
   margin:20px;
+  color:white;
 }
 /* form style */
 form{
   padding:20px;
+  color:white;
 }
 /* link style */
 a{
@@ -37,6 +39,7 @@ th,td{
   padding:10px;
 }
 table,th,td{
+  color:white;
   border: 1px solid #DB6834;
   border-collapse: collapse;
 }
