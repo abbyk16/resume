@@ -97,6 +97,10 @@ h3 {
 	margin-bottom: -18px;
 }
 
+.headline {
+	margin-bottom: 0px;
+}
+
 /*$gray: #333;
 $cardBG: #f8f8e8;
 $bg: #ddd;
