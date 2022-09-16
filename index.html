@@ -1,149 +1,90 @@
 <!DOCTYPE html>
+
+<!-- to-do list
+[] change body to not be a "form" element
+[] change background color
+[] replace light/dark mode with a slider tab to switch pages
+[] add screentone photo of self with circle frame
+
+ -->
+
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>practice page :)</title>
-<link rel="icon" type="image/x-icon" href="images/cinacup.webp">
-<link rel="stylesheet" href="style.css">
-</head>
-<body style="margin:40px; background:#3a3434">
 
-<!-- header -->
-<header class="headermask">
-<h1>my HTML practice site</h1>
-</header>
+  <head>
+    <title>Abby Kahler</title>
+    <link rel="icon" type="image/x-icon" href="images/heart.png">
 
-<!-- navigation -->
-<nav>
-<ul class="fullwidth nav">
-  <li class="active"><a style="color:white;" href="index.html">here</a></li>
-  <li><a href="blogpage.html">there</a></li>
-  <li><a href="page3.html">everywhere</a></li>
-  <li><a href="formpage.html">form</a></li>
-  <li style="float:right;padding:0px;"><form style="margin:0px;padding:0px;"><label style="margin:0px" for="search">search:</label>
-  <input style="padding:2px;" type="search" id="search" name="search">
-</form></li>
-</ul>
-</nav>
+    <meta charset="UTF-8">
 
-<!-- introduction -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<div class="clearfix">
-<section style="width:100%;display:block;">
-<h2 id="intro">fascinating information about me</h2>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=League+Spartan">
 
-<p>here follows some juicy little tidbits about an absolutely extraordinary person</p>
-</section>
+    <link rel="stylesheet" href="newhomestyle.css">
 
-<!-- table of contents -->
-<aside class="sidebar">
-<div class="center"><img src="images/cinastack.webp" alt="none" style="display:block;margin-left:auto;margin-right:auto;width:42px;height:42px;margin-top:10px;"></div><br>
-<div class="center">Table of contents:</div>
-<ol type="i" style="margin-left:none;margin-right:15px;">
-  <li><a href="#intro">Intro</a></li>
-  <li><a href="#anime">Favorite Anime</a></li>
-  <li><a href="#quotes">Quotations</a></li>
-  <li><a href="#misc">Miscellaneous Info</a></li>
-  <ol>
-    <li><a href="#genshin">Genshin Mains</a></li>
-  </ol>
-</ol>
-</div>
-</aside>
+  </head>
+<main id="box">
+	<img src = "images/portrait.png" alt="professional headshot" style="width:6em;height:6em;border-radius:50%;border:5px solid black">
+	<h1 class="headline">abby kahler</h1>
+	<div class="tabs">
+	  <input type="radio" name="tabs" id="tabone" checked="checked">
+	  <label for="tabone">jobs</label>
+	  <div class="tab">
+	    <h1>Technician</h1>
+      <p class="subtitle">Jefferson University; 2021-current
+	    <p>Maintained images for over 100 computers and tablets across campus; Monitored device issues remotely and in person; Maintained print server for campus library; Provided troubleshooting for network and database access; Served as administrator for library calendar, staffing, chat, FAQ, and form software.</p>
+      <h1>Front Desk Assistant</h1>
+      <p class="subtitle">JSR Community College; 2019-2021</p>
+      <p>Provided computer support for a variety of software programs including Microsoft Office, Google Suite, and Canvas for MacOS and Windows; provided troubleshooting for library AV equipment; provided virtual chat and video support for library patrons; provided tutoring services in ESL and computer skills; developed Zoom training materials for library staff.</p>
+      <h1>Front Desk Associate</h1>
+      <p class="subtitle">University of Richmond Law Library; 2017-2020</p>
+      <p>Supervised front desk employees; managed rotating catalog of 400+ Reserve materials; maintained loanable electronics; created online training materials for professors to aid with material requests; managed outgoing and incoming interlibrary loan requests; supervised transition of Reserve materials to new database.</p>
+      <h1>Tutor</h1>
+      <p class="subtitle">Franklin Yard; 2017-2022</p>
+      <p>Provided virtual and in-person SAT test and Algebra II prep, as well as custom tutoring experiences; assisted with curriculum development; led classes.</p>
+    </div>
 
-<div class="main">
-<!-- task list -->
-<section>
-<div style="border:2px solid black;border-radius:20px;">
-<h3 id="tasks">a task list</h3>
-<form>
-  <input type="checkbox" id="task1" name="task1" value="made">
-  <label for="task1">make this site</label><br>
-  <input type="checkbox" id="task2" name="task2" value="fixed">
-  <label for="task2">fix this site</label><br>
-</form>
-</div>
-</section>
+	  <input type="radio" name="tabs" id="tabtwo">
+	  <label for="tabtwo">projects</label>
+	  <div class="tab">
+      <h1>Professional</h1>
+      <h3>Device Management</h3>
+      <p class="subtitle">Jefferson University</p>
+      <p>Maintained images for iPads and Mac and Windows PCs across campus; assisted with replacement and upgrades of said devices.</p>
+      <h3>Server Updates</h3>
+      <p class="subtitle">Jefferson University</p>
+      <p>Directed implementation of print server upgrades including documentation and deployment</p>
+      <h3>Training</h3>
+      <p class="subtitle">University of Richmond Law Library; JSRCC
+      <p>Created video and text documents to provide training for library software products.</p>
 
-<!-- favorite media -->
-<section>
-<h3 id="anime">favorite anime</h3>
-<ul>
-  <li><cite><abbr title="Neon Genesis Evangelion">NGE</abbr></cite></li>
-  <li><cite>cardcaptor sakura</cite></li>
-</ul>
-</section>
+	    <h1>Personal</h1>
+      <h3>Website</h3>
+	    <p>Coded personal website from scratch using HTML and CSS.</p>
+      <h3>Motion-capture Animation</h3>
+      <p>Designed and rigged digital avatar for live streaming.</p>
+      <h3>PC</h3>
+      <p>Assembled personal computer and created home media server to manage digital library.</p>
+	  </div>
 
-<!-- quotations -->
-<section>
-<h3 id="quotes">a quote</h3>
-<blockquote cite="https://abbyk16.github.io">
-  I was raised as a feral child<br>
-  but I speak HTML fluently
-</blockquote>
-</section>
-
-<!-- miscellaneous info -->
-<section>
-<div class="yellow">
-<h3 id="misc">more stuff</h3>
-
-<p>another paragraph. also here is a <a href="https://abbyk16.github.io" target="_blank">link</a> to my other website.</p>
-
-<p><em>additionally</em> here is an image of cinammoroll listening to music which i also like to do. <br> <img src="images/cinamusic.webp" alt="cinammoroll with headphones" width="25%" height="25%"></p>
-<p>here are some math formulas:
-
-<div style="padding:20px;margin:20px;">
-<pre><b><i>
-  y = mx + b
-  y = x<sup>2</sup>
-</i></b></pre></div>
-</p>
-</div>
-</section>
-
-
-<section>
-<h3 id="genshin">&#128152; genshin mains &#128152;</h3>
-<table style="width:100%;font-family:verdana;">
-  <tr style="background-color:powderblue;">
-    <th>name</th>
-    <th>lvl</th>
-    <th>element</th>
-  </tr>
-  <tr>
-    <td>raiden</td>
-    <td>90</td>
-    <td>electro</td>
-  </tr>
-  <tr>
-    <td>ayaka</td>
-    <td>80</td>
-    <td>cryo</td>
-  </tr>
-  <tr>
-    <td>kokomi</td>
-    <td>80</td>
-    <td>hydro</td>
-  </tr>
-  <tr>
-    <td>shenhe</td>
-    <td>80</td>
-    <td>cryo</td>
-  </tr>
-</table>
-</section>
-
-
-
-<hr>
-
-<footer class="fullwidth">
-  its a footer
-</footer>
-</div>
-</div>
-
-</body>
-</html>
+	  <input type="radio" name="tabs" id="tabthree">
+	  <label for="tabthree">skills</label>
+	  <div class="tab">
+	    <ul>
+	    <li>HTML (1yr)</li>
+      <li>CSS (1yr)</li>
+      <li>JavaScript (6mo.)</li>
+      <li>GitHub Project Management (1yr)</li>
+      <li>PowerShell (6mo.)</li>
+      <li>Bash (6mo.)</li>
+      <li>COMPTIA A+ Certification (In Progress)</li>
+      <li>Office 365 (5yrs)</li>
+      <li>Chat Support (4yrs)</li>
+      <li>Customer Service (9yrs)</li>
+      <li>Database Management (5yrs)</li>
+      <li>Canva (6yrs)</li>
+      <li>Adobe Suite (12 yrs)</li>
+    </ul>
+	  </div>
+	</div>
+</main>
